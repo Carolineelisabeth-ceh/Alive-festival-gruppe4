@@ -1,0 +1,71 @@
+/* Cards om events */
+.card-music {
+    display: flex;
+    background-color: #ffb3e8;
+    flex-direction: row;
+    margin: 5px;
+    max-height: 120px;
+    margin-inline: auto;
+}
+
+.card-img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+
+}
+
+.Info-tekst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.1;
+    padding-left: 10px;
+    font-size: 14px;
+    max-width: 210px;
+
+
+}
+
+h4 {
+    font-size: 35px;
+    margin-left: auto;
+    padding: 5px;
+    align-self: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+hr {
+    width: 190px;
+    color-scheme: black;
+}
+
+
+
+/* Footer */
+.ikon {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.ikon-alive {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+
+}
+
+ul {
+    background-color: #ffffdf;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}

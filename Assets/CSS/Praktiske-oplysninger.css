@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+
+    background-color: #ffffdf;
+    font-size: 40px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #2e4428;
+}
+
+
+/* Accordion styles */
+.accordion {
+    margin: 16px 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.see-more {
+    width: 100%;
+    background: transparent;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    padding: 12px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.see-more .arrow {
+    display: inline-block;
+    transition: transform 0.25s ease;
+}
+
+.see-more.active .arrow {
+    transform: rotate(180deg);
+}
+
+.extra-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, padding 0.25s ease;
+    padding: 0 8px;
+}
+
+.extra-content.open {
+    max-height: 600px;
+    padding: 12px 8px 18px 8px;
+}

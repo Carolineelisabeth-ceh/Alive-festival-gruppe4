@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 205 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-326.199,-509.574)">
+        <g id="Artboard1" transform="matrix(0.404898,0,0,0.289351,326.34,509.592)">
+            <rect x="-0.348" y="-0.063" width="505.019" height="703.844" style="fill:none;"/>
+            <g id="ABC-Flaske" serif:id="ABC Flaske">
+            </g>
+            <g transform="matrix(2.46976,0,0,3.45602,-805.981,-1761.16)">
+                <circle cx="428.706" cy="611.283" r="100.941" style="fill:rgb(46,68,40);fill-opacity:0;"/>
+                <path d="M428.706,510.342C484.417,510.342 529.647,555.572 529.647,611.283C529.647,666.994 484.417,712.224 428.706,712.224C372.995,712.224 327.765,666.994 327.765,611.283C327.765,555.572 372.995,510.342 428.706,510.342ZM428.706,522.342C379.618,522.342 339.765,562.195 339.765,611.283C339.765,660.371 379.618,700.224 428.706,700.224C477.794,700.224 517.647,660.371 517.647,611.283C517.647,562.195 477.794,522.342 428.706,522.342Z" style="fill:rgb(46,68,40);"/>
+            </g>
+            <g transform="matrix(4.46058,0,0,6.24184,-1029.44,-2486.93)">
+                <circle cx="256.113" cy="454.37" r="5.688" style="fill:rgb(46,68,40);stroke:rgb(46,68,40);stroke-width:6.64px;"/>
+            </g>
+            <g transform="matrix(4.46058,0,0,6.24184,-889.515,-2486.93)">
+                <circle cx="256.113" cy="454.37" r="5.688" style="fill:rgb(46,68,40);stroke:rgb(46,68,40);stroke-width:6.64px;"/>
+            </g>
+            <g transform="matrix(4.46058,0,0,6.24184,-749.721,-2486.93)">
+                <circle cx="256.113" cy="454.37" r="5.688" style="fill:rgb(46,68,40);stroke:rgb(46,68,40);stroke-width:6.64px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
