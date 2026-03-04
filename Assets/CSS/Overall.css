@@ -1,16 +1,31 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header*/
+
+header:not(.hero) {
+    text-align: center;
+    background-color: #ffffdf;
+    font-size: 36px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #2e4428;
+}
+
 /* Cards om events */
 .card-music {
     display: flex;
     background-color: #ffb3e8;
     flex-direction: row;
     margin: 5px;
-    max-height: 120px;
+    max-height: 100px;
+    width: 100%;
     margin-inline: auto;
 }
 
 .card-img {
-    height: 120px;
-    width: 120px;
+    min-height: 100px;
+    width: 100px;
     object-fit: cover;
 
 }
@@ -18,20 +33,19 @@
 .Info-tekst {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     line-height: 0.1;
     padding-left: 10px;
-    font-size: 14px;
-    max-width: 210px;
+    font-size: 10px;
+    max-width: 280px;
 
 
 }
 
 h4 {
-    font-size: 35px;
+    font-size: 26px;
     margin-left: auto;
-    padding: 5px;
-    align-self: center;
+    padding: 2px;
 }
 
 h1 {
@@ -43,6 +57,19 @@ h1 {
 hr {
     width: 190px;
     color-scheme: black;
+}
+
+.tidspunkt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: grid-end;
+}
+
+.favorite-btn {
+    max-width: 20px;
+    max-height: 20px;
+
 }
 
 
