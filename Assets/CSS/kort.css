@@ -1,0 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D7FFC2;
+}
+
+.KortAlive {
+    text-align: center;
+}
+
+.AliveMap {
+    max-width: 100%;
+}
