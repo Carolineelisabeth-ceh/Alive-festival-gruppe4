@@ -1,4 +1,5 @@
 * {
+
     box-sizing: border-box;
 }
 
@@ -67,4 +68,17 @@ header nav {
 
 .card-music {
     margin-top: 2.5rem;
+}
+
+.ikon {
+    padding: 0 !important;
+}
+
+.ikon-alive {
+    padding: 0 !important;
+}
+
+ul {
+    margin: 0 !important;
+    gap: 2.5rem;
 }

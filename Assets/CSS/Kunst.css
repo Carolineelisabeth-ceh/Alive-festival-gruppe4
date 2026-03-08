@@ -6,7 +6,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #2e4428;
-
 }
 
 
@@ -70,4 +69,17 @@ header nav {
 .card-music {
     margin-top: 2.5rem;
     background-color: #ffffdf;
+}
+
+.ikon {
+    padding: 0 !important;
+}
+
+.ikon-alive {
+    padding: 0 !important;
+}
+
+ul {
+    margin: 0 !important;
+    gap: 2.5rem;
 }
