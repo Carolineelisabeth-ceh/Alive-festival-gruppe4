@@ -65,6 +65,13 @@ header nav {
     color: #ffffdf;
 }
 
+.Info-tekst {
+    padding: 0 !important;
+}
+
+hr {
+    width: 240px !important;
+}
 
 .card-music {
     margin-top: 2.5rem;
