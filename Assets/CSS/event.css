@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.musik {
+    background-color: #ffb3e8;
+}
+
+.artist1 {
+    height: 200px;
+    width: 180;
+    border-radius: 6px;
+}
+
+.musik {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
