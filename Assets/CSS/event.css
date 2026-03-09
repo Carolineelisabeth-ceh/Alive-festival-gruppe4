@@ -7,36 +7,66 @@
 .musik {
     background-color: #ffb3e8;
     background: linear-gradient(to bottom, #ffb3e8 0%, #ffffff 100%);
-
-    p {
-        font-size: 20px;
-    }
 }
 
-.info1 {
+.kunst {
+    background-color: #ffffdf;
+    background: linear-gradient(to bottom, #ffffdf 0%, #ffffff 100%);
+}
+
+.udflugt {
+    background-color: #D7FFC2;
+    background: linear-gradient(to bottom, #D7FFC2 0%, #ffffff 100%);
+}
+
+.info1,
+.info2,
+.info3 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-.artist1 {
+.artist1,
+.artist2,
+.artist3 {
     height: 250px;
     width: 180;
     border-radius: 6px;
     grid-row: 1 / -1;
     grid-column: 1 / 1;
-    margin: 15px;
+    margin: 20px;
 }
 
-.pinfo {
+.pinfo,
+.pinfo2,
+.pinfo3 {
     font-weight: bold;
     grid-row: 2 / 2;
     grid-column: 2 / 2;
     margin: 0;
-    font-size: 28px;
+    font-size: 26px;
 }
 
-.icon1 {
+.icon1,
+.icon2,
+.icon3 {
     margin: 0;
+}
+
+.tekst1,
+.tekst2,
+.tekst3 {
+    font-size: 18px;
+    margin: 20px;
+
+    span {
+        font-style: italic;
+    }
+
+    .obs {
+        font-weight: bold;
+        font-style: normal;
+    }
 }
