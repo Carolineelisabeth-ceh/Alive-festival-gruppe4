@@ -80,8 +80,7 @@
 a {
     text-decoration: none;
     color: black;
-    padding-top: 20px;
-    margin: 10px;
+
 }
 
 .buttons1 {
@@ -90,6 +89,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    margin-bottom: 80px;
 }
 
 .buttons1 a {
