@@ -1,3 +1,4 @@
+/* Dropdown i Praktisk infomation */
 const buttons = document.querySelectorAll(".see-more");
 
 buttons.forEach(button => {
@@ -10,6 +11,8 @@ buttons.forEach(button => {
 
     });
 });
+
+
 let udflugter = [
     {
         titel: "Udflugt til Thisted Bryghus",
