@@ -31,23 +31,39 @@ header {
     outline: none;
 }
 
-.see-more .arrow {
-    display: inline-block;
-    transition: transform 0.25s ease;
-}
-
-.see-more.active .arrow {
-    transform: rotate(180deg);
-}
-
 .extra-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.35s ease, padding 0.25s ease;
-    padding: 0 8px;
+    display: none;
+    padding-top: 10px;
 }
 
-.extra-content.open {
-    max-height: 600px;
-    padding: 12px 8px 18px 8px;
+.extra-content.show {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-height: 300px;
+    flex: 1;
+
+}
+
+.extra-content p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.alle-ikon {
+    width: 30px;
+    height: auto;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow.rotate {
+    transform: rotate(90deg);
+}
+
+.alle-billetter {
+    height: 100px;
 }
