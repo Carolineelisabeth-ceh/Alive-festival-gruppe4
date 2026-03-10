@@ -1,4 +1,7 @@
 body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2E4428;
+
 
     background-color: #2E4428;
 }
@@ -15,4 +18,17 @@ body {
 
 ul {
     padding: 0;
+}
+
+.card-music {
+    margin-top: 2rem !important;
+
+}
+
+.underoverskrift {
+    color: #ffffdf;
+}
+
+footer {
+    margin-top: 2rem !important;
 }
