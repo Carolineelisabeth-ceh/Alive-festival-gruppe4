@@ -38,6 +38,7 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    font-weight: bold;
 }
 
 h2 {

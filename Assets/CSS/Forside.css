@@ -61,3 +61,7 @@ body {
     font-size: 25px;
     margin: 2px;
 }
+
+a {
+    text-decoration: none;
+}
