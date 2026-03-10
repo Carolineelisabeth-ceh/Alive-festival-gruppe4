@@ -64,6 +64,7 @@ hr {
 }
 
 .tidspunkt {
+    padding-right: 15px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
