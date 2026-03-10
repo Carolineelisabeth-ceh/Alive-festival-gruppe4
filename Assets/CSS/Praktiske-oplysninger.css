@@ -1,25 +1,30 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #2e4428;
+    color: #ffffdf;
 }
 
 header {
 
-    background-color: #ffffdf;
+    background-color: #2e4428;
     font-size: 40px;
     padding: 10px 20px;
-    border-bottom: 1px solid #2e4428;
+    border-bottom: 1px solid #ffb3e8;
+    color: #ffffdf;
+
 }
 
 
 /* Accordion styles */
 .accordion {
     margin: 16px 12px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #ffb3e8;
 }
 
 .see-more {
+    color: #ffffdf;
     width: 100%;
-    background: transparent;
+    background: #2e4428;
     border: none;
     text-align: left;
     font-size: 18px;
@@ -58,6 +63,7 @@ header {
 
 .arrow {
     transition: transform 0.3s ease;
+    color: #ffb3e8;
 }
 
 .arrow.rotate {
