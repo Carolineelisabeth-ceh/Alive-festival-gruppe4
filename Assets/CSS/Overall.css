@@ -1,6 +1,13 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'GT Haptik';
     margin: 0;
+}
+
+/* <div>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div> */
+
+@font-face {
+    font-family: 'GT Haptik';
+    src: url(../fonts/gt_haptik_regular.woff2);
 }
 
 /* Header*/
@@ -71,8 +78,8 @@ hr {
 }
 
 .favorite-btn {
-    max-width: 20px;
-    max-height: 20px;
+    width: 30px;
+    height: 30px;
     padding-top: 10px;
     align-self: flex-end;
 }
