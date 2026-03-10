@@ -56,20 +56,45 @@ let card = document.querySelector("#udflugter");
 
 for (let i = 0; i < udflugter.length; i++) {
 
-    let cards = `
-    <div class="card-music">
-        <img class="card-img" src="${udflugter[i].billede}" alt="">
-        <div class="Info-tekst">
-            <h2>${udflugter[i].titel}</h2>
-            <hr>
-            <h3>${udflugter[i].adresse}</h3>
+    let cards = "";
+
+    if (i === 0) {
+
+        cards = `
+        <a href="event-udflugt.html" class="card-link">
+            <div class="card-music">
+                <img class="card-img" src="${udflugter[i].billede}" alt="">
+                <div class="Info-tekst">
+                    <h2>${udflugter[i].titel}</h2>
+                    <hr>
+                    <h3>${udflugter[i].adresse}</h3>
+                </div>
+                <div class="tidspunkt">
+                    <img src="Assets/img/hjerte-tomt.svg" alt="" class="favorite-btn">
+                    <h4>${udflugter[i].tidspunkt}</h4>
+                </div>
+            </div>
+        </a>
+        `;
+    } else {
+
+        cards = `
+        <div class="card-music">
+            <img class="card-img" src="${udflugter[i].billede}" alt="">
+            <div class="Info-tekst">
+                <h2>${udflugter[i].titel}</h2>
+                <hr>
+                <h3>${udflugter[i].adresse}</h3>
+            </div>
+            <div class="tidspunkt">
+                <img src="Assets/img/hjerte-tomt.svg" alt="" class="favorite-btn">
+                <h4>${udflugter[i].tidspunkt}</h4>
+            </div>
         </div>
-        <div class="tidspunkt">
-            <img src="Assets/img/hjerte-tomt.svg" alt="" class="favorite-btn">
-            <h4>${udflugter[i].tidspunkt}</h4>
-        </div>
-    </div>
-    `;
+        `;
+    }
 
     card.innerHTML += cards;
 }
+
+
