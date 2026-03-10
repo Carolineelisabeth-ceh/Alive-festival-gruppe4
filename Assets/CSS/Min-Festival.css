@@ -1,6 +1,12 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+
     background-color: #2E4428;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'GT Haptik';
+    src: url(../fonts/gt_haptik_regular.woff2);
 }
 
 .favorite-btn {
