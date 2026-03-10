@@ -1,9 +1,13 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'GT Haptik';
     background-color: #2e4428;
     color: #ffffdf;
 }
 
+@font-face {
+    font-family: 'GT Haptik';
+    src: url(../fonts/gt_haptik_regular.woff2);
+}
 
 
 
