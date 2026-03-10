@@ -22,6 +22,7 @@ header:not(.hero) {
     max-height: 100px;
     width: 100%;
     margin-inline: auto;
+
 }
 
 .card-img {
@@ -43,10 +44,12 @@ header:not(.hero) {
 
 }
 
+
 h4 {
     font-size: 26px;
-    margin-left: auto;
-    padding: 2px;
+    margin-left: 0;
+    padding: 1px;
+    margin: 5px;
 }
 
 h1 {
@@ -63,14 +66,14 @@ hr {
 .tidspunkt {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: grid-end;
+    margin-left: auto;
 }
 
 .favorite-btn {
-    max-width: 20px;
-    max-height: 20px;
-
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    align-self: flex-end;
 }
 
 
