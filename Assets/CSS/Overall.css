@@ -71,8 +71,8 @@ hr {
 }
 
 .favorite-btn {
-    max-width: 20px;
-    max-height: 20px;
+    width: 30px;
+    height: 30px;
     padding-top: 10px;
     align-self: flex-end;
 }
