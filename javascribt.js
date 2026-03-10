@@ -1,3 +1,4 @@
+
 // Følg guide https://www.youtube.com/watch?v=LqpF8fkKOHU med hjælp fra w3 schools.
 
 var acc = document.getElementsByClassName("accordion");
@@ -14,6 +15,8 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+/* Dropdown i Praktisk infomation */
 const buttons = document.querySelectorAll(".see-more");
 
 buttons.forEach(button => {
@@ -26,6 +29,8 @@ buttons.forEach(button => {
 
     });
 });
+
+
 let udflugter = [
     {
         titel: "Udflugt til Thisted Bryghus",
