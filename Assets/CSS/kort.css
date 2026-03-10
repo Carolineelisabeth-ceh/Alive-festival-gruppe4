@@ -1,6 +1,11 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'GT Haptik';
     background-color: #D7FFC2;
+}
+
+@font-face {
+    font-family: 'GT Haptik';
+    src: url(../fonts/gt_haptik_regular.woff2);
 }
 
 .KortAlive {
@@ -10,4 +15,3 @@ body {
 .AliveMap {
     max-width: 100%;
 }
-
