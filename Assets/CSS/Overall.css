@@ -1,11 +1,18 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'GT Haptik';
     margin: 0;
+}
+
+/* <div>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div> */
+
+@font-face {
+    font-family: 'GT Haptik';
+    src: url(../fonts/gt_haptik_regular.woff2);
 }
 
 /* Header*/
 
-header:not(.hero) {
+header:not(.hero, .praktisk) {
     text-align: center;
     background-color: #ffffdf;
     font-size: 36px;
@@ -64,7 +71,6 @@ hr {
 }
 
 .tidspunkt {
-    padding-right: 15px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -116,4 +122,5 @@ hr {
 .footer-nav li span {
     font-weight: bold;
     font-size: 14px;
+    color: #2e4428;
 }
