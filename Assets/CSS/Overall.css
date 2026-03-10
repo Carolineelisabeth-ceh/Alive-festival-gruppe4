@@ -12,13 +12,15 @@ body {
 
 /* Header*/
 
-header:not(.hero, .praktisk) {
+header:not(.hero) {
     text-align: center;
     background-color: #ffffdf;
+    color: #2e4428;
     font-size: 36px;
     padding: 10px 15px;
     border-bottom: 1px solid #2e4428;
 }
+
 
 /* Cards om events */
 .card-music {
@@ -47,8 +49,6 @@ header:not(.hero, .praktisk) {
     padding-left: 10px;
     font-size: 10px;
     max-width: 280px;
-
-
 }
 
 
@@ -87,6 +87,13 @@ hr {
 
 
 /* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .ikon {
     height: 30px;
     width: 30px;
@@ -99,6 +106,7 @@ hr {
     padding: 5px;
 
 }
+
 
 
 .footer-nav ul {
