@@ -4,10 +4,9 @@ body {
     color: #ffffdf;
 }
 
-header {
-
+.praktisk {
     background-color: #2e4428;
-    font-size: 40px;
+    font-size: 36px;
     padding: 10px 20px;
     border-bottom: 1px solid #ffb3e8;
     color: #ffffdf;
@@ -19,6 +18,17 @@ header {
 .accordion {
     margin: 16px 12px;
     border-bottom: 1px solid #ffb3e8;
+}
+
+.Praktisk-ikon {
+    width: 30px;
+    height: auto;
+    padding-right: 8px;
+
+}
+
+p {
+    margin: 0;
 }
 
 .see-more {
@@ -35,6 +45,10 @@ header {
     cursor: pointer;
     outline: none;
     color: #ffffdf;
+}
+
+.see-more span {
+    margin-left: auto;
 }
 
 .extra-content {
